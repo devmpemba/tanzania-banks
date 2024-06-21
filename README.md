@@ -57,11 +57,11 @@ Returns the SWIFT code for a specific branch of a bank.
 
 $swiftCode = $bankList->getSwiftCode('National Bank of Commerce', 'Dar es Salaam - Corporate Branch');
 
-# License
+## License
 This project is licensed under the MIT License - see the LICENSE file for details.
 
 
-### Instructions
+## Instructions
 
 1. **Copy the entire text** starting from `# Tanzania Banks Library` down to the end (`## License` section).
    
