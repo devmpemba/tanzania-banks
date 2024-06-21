@@ -8,9 +8,8 @@ Install the library via Composer:
 
 ```bash
 composer require salymmbise/tanzania-banks
-
-## Usage
-## Example Usage
+Usage
+Example Usage
 
 <?php
 
@@ -45,31 +44,51 @@ print_r($branches);
 $swiftCode = $bankList->getSwiftCode('CRDB Bank', 'Dar es Salaam - Azikiwe Branch');
 echo "\nSWIFT Code of CRDB Bank Dar es Salaam - Azikiwe Branch:\n";
 echo $swiftCode . "\n";
-
-## Methods
+Methods
 getBanks()
 Returns an array of all banks available in Tanzania.
 
-$banks = $bankList->getBanks();
 
+$banks = $bankList->getBanks();
+getBranches($bank)
+Returns an array of branches for a specified bank.
+
+
+$branches = $bankList->getBranches('National Bank of Commerce');
 getSwiftCode($bank, $branch)
 Returns the SWIFT code for a specific branch of a bank.
 
-$swiftCode = $bankList->getSwiftCode('National Bank of Commerce', 'Dar es Salaam - Corporate Branch');
 
-## License
+$swiftCode = $bankList->getSwiftCode('National Bank of Commerce', 'Dar es Salaam - Corporate Branch');
+License
 This project is licensed under the MIT License - see the LICENSE file for details.
 
+Instructions
+Copy the entire text starting from # Tanzania Banks Library down to the end (## License section).
 
-## Instructions
+Create a new file named README.md in the root directory of your GitHub repository where your PHP library is hosted.
 
-1. **Copy the entire text** starting from `# Tanzania Banks Library` down to the end (`## License` section).
-   
-2. **Create a new file** named `README.md` in the root directory of your GitHub repository where your PHP library is hosted.
+Paste the copied content into the README.md file.
+
+Save the file.
+
+This README.md file now contains comprehensive information for users about your TanzaniaBanks library, including how to install it, how to use it with example code snippets, details about available methods, and licensing information. Adjust the content as needed to fit any additional features or updates you make to your library in the future.
+
+
+
+### Instructions
+
+1. **Copy the entire content** from the provided Markdown text above.
+
+2. **Create a new file** named `README.md` in the root directory of your GitHub repository where your PHP library (`salymmbise/tanzania-banks`) is hosted.
 
 3. **Paste** the copied content into the `README.md` file.
 
 4. **Save** the file.
 
-This `README.md` file now contains comprehensive information for users about your `TanzaniaBanks` library, including how to install it, how to use it with example code snippets, details about available methods, and licensing information. Adjust the content as needed to fit any additional features or updates you make to your library in the future.
+This consolidated `README.md` file now includes all the sections you requested: headers, installation instructions, example usage, method descriptions, and license details. Users will find it comprehensive and easy to understand when they visit your GitHub repository. Adjust the example usage, method descriptions, and any other details as per your actual implementation and features of the `TanzaniaBanks` library.
+
+
+
+
 
