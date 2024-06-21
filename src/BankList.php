@@ -76,12 +76,53 @@ class BankList
                 'Songea - Main Branch' => 'NMIBTZTZSON',
             ]
         ],
+
+        'Standard Chartered Bank Tanzania' => [
+            'branches' => [
+                // Branches and their codes for Standard Chartered Bank Tanzania
+            ]
+        ],
+        'Barclays Bank Tanzania' => [
+            'branches' => [
+                // Branches and their codes for Barclays Bank Tanzania
+            ]
+        ],
+        'Stanbic Bank Tanzania' => [
+            'branches' => [
+                // Branches and their codes for Stanbic Bank Tanzania
+            ]
+        ],
+        'Exim Bank Tanzania' => [
+            'branches' => [
+                // Branches and their codes for Exim Bank Tanzania
+            ]
+        ],
+        'Azania Bank Limited' => [
+            'branches' => [
+                // Branches and their codes for Azania Bank Limited
+            ]
+        ],
+        'Bank of Africa Tanzania' => [
+            'branches' => [
+                // Branches and their codes for Bank of Africa Tanzania
+            ]
+        ],
+        'CRDB Microfinance Services Company Limited' => [
+            'branches' => [
+                // Branches and their codes for CRDB Microfinance Services Company Limited
+            ]
+        ],
+        'Ecobank Tanzania' => [
+            'branches' => [
+                // Branches and their codes for Ecobank Tanzania
+            ]
+        ],
     ];
 
     public function getBanks()
     {
         //------- get response as array
-        return array_keys($this->banks); 
+        return array_keys($this->banks);
 
         //------- response as json
         // return json_encode(array_keys($this->banks)); 
