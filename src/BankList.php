@@ -168,6 +168,11 @@ class BankList
                 'Songea - Main Branch' => 'NMIBTZTZSON',
             ]
         ],
+
+        'Selcom Microfinance Bank' => [
+            'branches' => []
+        ],
+        
         'Standard Chartered' => [
             'branches' => []
         ],
