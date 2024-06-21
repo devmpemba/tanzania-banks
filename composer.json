@@ -1,0 +1,19 @@
+{
+    "name": "salymmbise/tanzania-banks",
+    "description": "A PHP library for listing all banks in Tanzania, their branches and SWIFT Codes",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Salymmbise\\TanzaniaBanks\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Salim Mbise",
+            "email": "salymdev@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {}
+}
