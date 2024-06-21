@@ -80,16 +80,30 @@ class BankList
 
     public function getBanks()
     {
-        return array_keys($this->banks);
+        //------- get response as array
+        return array_keys($this->banks); 
+
+        //------- response as json
+        // return json_encode(array_keys($this->banks)); 
     }
 
     public function getBranches($bank)
     {
+        //------- get response as array
         return isset($this->banks[$bank]['branches']) ? array_keys($this->banks[$bank]['branches']) : [];
+
+        //-------- get response as json
+        //return isset($this->banks[$bank]['branches']) ? json_encode(array_keys($this->banks[$bank]['branches'])) : json_encode([]);
+
     }
 
     public function getSwiftCode($bank, $branch)
     {
+        //---------- get response as array
         return isset($this->banks[$bank]['branches'][$branch]) ? $this->banks[$bank]['branches'][$branch] : null;
+
+        //-------- response as JSON
+        //return isset($this->banks[$bank]['branches'][$branch]) ? json_encode($this->banks[$bank]['branches'][$branch]) : json_encode(null);
+
     }
 }
