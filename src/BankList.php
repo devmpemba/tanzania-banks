@@ -5,31 +5,42 @@ namespace Salymmbise\TanzaniaBanks;
 class BankList
 {
     private $banks = [
-        'National Bank of Commerce' => [
-            'branches' => [
-                'Dar es Salaam - Corporate Branch' => 'NLCBTZTX',
-                'Dar es Salaam - Samora Branch' => 'NLCBTZTXSAM',
-                'Arusha - Main Branch' => 'NLCBTZTXARU',
-                'Arusha - Clock Tower Branch' => 'NLCBTZTXCLK',
-                'Mwanza - Kenyatta Road Branch' => 'NLCBTZTXMWZ',
-                'Dodoma - Main Branch' => 'NLCBTZTXDOM',
-                'Mbeya - Main Branch' => 'NLCBTZTXMBY',
-                'Morogoro - Main Branch' => 'NLCBTZTXMOR',
-                'Moshi - Main Branch' => 'NLCBTZTXMOS',
-                'Tanga - Main Branch' => 'NLCBTZTXTAN',
-                'Zanzibar - Main Branch' => 'NLCBTZTXZNZ',
-                'Iringa - Main Branch' => 'NLCBTZTXIRG',
-                'Tabora - Main Branch' => 'NLCBTZTXTBR',
-                'Shinyanga - Main Branch' => 'NLCBTZTXSHY',
-                'Kigoma - Main Branch' => 'NLCBTZTXKGM',
-                'Singida - Main Branch' => 'NLCBTZTXSGD',
-                'Lindi - Main Branch' => 'NLCBTZTXLND',
-                'Mtwara - Main Branch' => 'NLCBTZTXMTW',
-                'Sumbawanga - Main Branch' => 'NLCBTZTXSUM',
-                'Songea - Main Branch' => 'NLCBTZTXSON',
-            ]
+
+
+        'Absa Bank' => [
+            'branches' => []
         ],
-        'CRDB Bank' => [
+        'ACB Bank' => [
+            'branches' => []
+        ],
+        'Access Bank' => [
+            'branches' => []
+        ],
+        'Amana Bank Limited' => [
+            'branches' => []
+        ],
+        'Azania Bank Limited' => [
+            'branches' => []
+        ],
+        'Bank ABC' => [
+            'branches' => []
+        ],
+        'Bank of Africa (BOA)' => [
+            'branches' => []
+        ],
+        'Bank of Africa Tanzania' => [
+            'branches' => []
+        ],
+        'Bank of Baroda' => [
+            'branches' => []
+        ],
+        'Bank of India (BOI)' => [
+            'branches' => []
+        ],
+        'Citi Bank' => [
+            'branches' => []
+        ],
+        'CRDB Bank Plc' => [
             'branches' => [
                 'Dar es Salaam - Azikiwe Branch' => 'CORUTZTZ',
                 'Dar es Salaam - Kariakoo Branch' => 'CORUTZTZAAB',
@@ -53,7 +64,88 @@ class BankList
                 'Songea - Main Branch' => 'CORUTZSON',
             ]
         ],
-        'NMB Bank' => [
+        'CRDB Microfinance Services Company Limited' => [
+            'branches' => []
+        ],
+        'DCB Commercial Bank' => [
+            'branches' => []
+        ],
+        'Diamond Trust Bank (DTB)' => [
+            'branches' => []
+        ],
+        'Ecobank' => [
+            'branches' => []
+        ],
+        'Ecobank Tanzania' => [
+            'branches' => []
+        ],
+        'Equity Bank' => [
+            'branches' => []
+        ],
+        'Exim Bank' => [
+            'branches' => []
+        ],
+        'Exim Bank Tanzania' => [
+            'branches' => []
+        ],
+        'Finca Microfinance Bank' => [
+            'branches' => []
+        ],
+        'Guaranty Trust Bank (GTCO)' => [
+            'branches' => []
+        ],
+        'Habib African Bank Limited' => [
+            'branches' => []
+        ],
+        'ICB Bank' => [
+            'branches' => []
+        ],
+        'KCB Bank Tanzania' => [
+            'branches' => []
+        ],
+        'Letshego Faidika Bank' => [
+            'branches' => []
+        ],
+        'Maendeleo Bank' => [
+            'branches' => []
+        ],
+        'MCB Bank' => [
+            'branches' => []
+        ],
+        'Mkombozi Commercial Bank' => [
+            'branches' => []
+        ],
+
+        'National Bank of Commerce (NBC)' => [
+
+            'branches' => [
+                'Dar es Salaam - Corporate Branch' => 'NLCBTZTX',
+                'Dar es Salaam - Samora Branch' => 'NLCBTZTXSAM',
+                'Arusha - Main Branch' => 'NLCBTZTXARU',
+                'Arusha - Clock Tower Branch' => 'NLCBTZTXCLK',
+                'Mwanza - Kenyatta Road Branch' => 'NLCBTZTXMWZ',
+                'Dodoma - Main Branch' => 'NLCBTZTXDOM',
+                'Mbeya - Main Branch' => 'NLCBTZTXMBY',
+                'Morogoro - Main Branch' => 'NLCBTZTXMOR',
+                'Moshi - Main Branch' => 'NLCBTZTXMOS',
+                'Tanga - Main Branch' => 'NLCBTZTXTAN',
+                'Zanzibar - Main Branch' => 'NLCBTZTXZNZ',
+                'Iringa - Main Branch' => 'NLCBTZTXIRG',
+                'Tabora - Main Branch' => 'NLCBTZTXTBR',
+                'Shinyanga - Main Branch' => 'NLCBTZTXSHY',
+                'Kigoma - Main Branch' => 'NLCBTZTXKGM',
+                'Singida - Main Branch' => 'NLCBTZTXSGD',
+                'Lindi - Main Branch' => 'NLCBTZTXLND',
+                'Mtwara - Main Branch' => 'NLCBTZTXMTW',
+                'Sumbawanga - Main Branch' => 'NLCBTZTXSUM',
+                'Songea - Main Branch' => 'NLCBTZTXSON',
+            ]
+
+        ],
+        'NCBA Bank' => [
+            'branches' => []
+        ],
+        'National Microfinance Bank (NMB)' => [
             'branches' => [
                 'Dar es Salaam - Corporate Branch' => 'NMIBTZTZ',
                 'Dar es Salaam - Mlimani City Branch' => 'NMIBTZTZMLM',
@@ -76,58 +168,34 @@ class BankList
                 'Songea - Main Branch' => 'NMIBTZTZSON',
             ]
         ],
-
-        'Standard Chartered Bank Tanzania' => [
-            'branches' => [
-                // Branches and their codes for Standard Chartered Bank Tanzania
-            ]
+        'Standard Chartered' => [
+            'branches' => []
         ],
-        'Barclays Bank Tanzania' => [
-            'branches' => [
-                // Branches and their codes for Barclays Bank Tanzania
-            ]
+        'Standard Chartered Bank Tanzania' => [
+            'branches' => []
+        ],
+        'Stanbic Bank' => [
+            'branches' => []
         ],
         'Stanbic Bank Tanzania' => [
-            'branches' => [
-                // Branches and their codes for Stanbic Bank Tanzania
-            ]
+            'branches' => []
         ],
-        'Exim Bank Tanzania' => [
-            'branches' => [
-                // Branches and their codes for Exim Bank Tanzania
-            ]
+        'Tanzania Agricultural Development Bank (TADB)' => [
+            'branches' => []
         ],
-        'Azania Bank Limited' => [
-            'branches' => [
-                // Branches and their codes for Azania Bank Limited
-            ]
+        'Tanzania Commercial Bank (TCB)' => [
+            'branches' => []
         ],
-        'Bank of Africa Tanzania' => [
-            'branches' => [
-                // Branches and their codes for Bank of Africa Tanzania
-            ]
+        'The Peoples Bank of Zanzibar (TPZ)' => [
+            'branches' => []
         ],
-        'CRDB Microfinance Services Company Limited' => [
-            'branches' => [
-                // Branches and their codes for CRDB Microfinance Services Company Limited
-            ]
-        ],
-        'Ecobank Tanzania' => [
-            'branches' => [
-                // Branches and their codes for Ecobank Tanzania
-            ]
+        'TIB Development Bank' => [
+            'branches' => []
         ],
 
-        'KCB Bank Tanzania' => [
-            'branches' => [
-                // Branches and their codes for KCB Bank Tanzania
-            ]
-        ],
-        'Amana Bank Limited' => [
-            'branches' => [
-                // Branches and their codes for Amana Bank Limited
-            ]
-        ],
+
+
+
     ];
 
     public function getBanks()
