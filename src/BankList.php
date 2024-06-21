@@ -117,6 +117,17 @@ class BankList
                 // Branches and their codes for Ecobank Tanzania
             ]
         ],
+
+        'KCB Bank Tanzania' => [
+            'branches' => [
+                // Branches and their codes for KCB Bank Tanzania
+            ]
+        ],
+        'Amana Bank Limited' => [
+            'branches' => [
+                // Branches and their codes for Amana Bank Limited
+            ]
+        ],
     ];
 
     public function getBanks()
