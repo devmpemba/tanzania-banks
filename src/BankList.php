@@ -141,8 +141,11 @@ class BankList
                 'Arusha - Meru Branch' => 'NLCBTZTXCLK',
                 'Manyara - Babati Branch' => 'NULL',
                 'Manyara - Karatu Branch' => 'NULL',
+                
                 'Mwanza - Mwanza Branch' => 'NLCBTZTXMWZ',
                 'Mwanza - Nyanza Branch' => 'NULL',
+                'Mwanza - Ukerewe Branch' => 'NULL',
+
                 'Shinyanga - Shinyanga Branch' => 'NLCBTZTXSHY',
 
 
@@ -169,9 +172,16 @@ class BankList
                 'Singida - Main Branch' => 'NLCBTZTXSGD',
                 'Lindi - Lindi Branch' => 'NLCBTZTXLND',
                 'Mtwara - Masasi Branch' => 'NLCBTZTXMTW',
+
+                'Pwani - Kibaha Branch' => 'NULL',
+
                 'Mara - Musoma Branch' => 'NULL',
                 'Mara - Tarime Branch' => 'NULL',
                 'Mara - Nyamongo Branch' => 'NULLL',
+                'Njombe - Njombe Branch' => 'NULL',
+                'Njombe - Makambako Branch' => 'NULL',
+
+
                 'Sumbawanga - Main Branch' => 'NLCBTZTXSUM',
                 'Songea - Songea Branch' => 'NLCBTZTXSON',
                 'Zanzibar - Zanzibar Branch' => 'NULL',
