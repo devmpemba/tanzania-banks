@@ -167,6 +167,7 @@ class BankList
                 'Tanga - Main Branch' => 'NLCBTZTXTAN',
                 'Zanzibar - Main Branch' => 'NLCBTZTXZNZ',
                 'Iringa - Iringa Branch' => 'NLCBTZTXIRG',
+                'Iringa - Mafinga Branch' => 'NULL',
                 'Tabora - Tanga Branch' => 'NLCBTZTXTBR',
                 'Kigoma - Kigoma Branch' => 'NLCBTZTXKGM',
                 'Singida - Main Branch' => 'NLCBTZTXSGD',
