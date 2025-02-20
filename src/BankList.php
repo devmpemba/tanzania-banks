@@ -147,7 +147,7 @@ class BankList
                 'Mwanza - Ukerewe Branch' => 'NULL',
 
                 'Shinyanga - Shinyanga Branch' => 'NLCBTZTXSHY',
-
+                'Kahama - Kahama Branch' => 'NULL',
 
                 'Dodoma - UDOM Branch' => 'NULL',
                 'Dodoma - Bunge Branch' => 'NULL',
