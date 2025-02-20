@@ -155,7 +155,7 @@ class BankList
                 'Kagera - Kagera Branch' => 'NULL',
                 'Katavi - Mpanda Branch' => 'NULL',
 
-        
+                //adding kahama branch
                 'Mbeya - Mbeya Branch' => 'NLCBTZTXMBY',
                 'Mbeya - Tunduma Branch' => 'NULL',
                 'Mbeya - Mwanjelwa Branch' => 'NULL',
