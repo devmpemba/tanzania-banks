@@ -147,7 +147,6 @@ class BankList
                 'Mwanza - Ukerewe Branch' => 'NULL',
 
                 'Shinyanga - Shinyanga Branch' => 'NLCBTZTXSHY',
-                'Kahama - Kahama Branch' => 'NULL',
 
                 'Dodoma - UDOM Branch' => 'NULL',
                 'Dodoma - Bunge Branch' => 'NULL',
@@ -164,6 +163,8 @@ class BankList
 
                 'Morogoro - Morogoro Branch' => 'NLCBTZTXMOR',
                 'Kilimanjaro - Moshi Branch' => 'NLCBTZTXMOS',
+                'Kahama - Kahama Branch' => 'NULL',
+
                 'Tanga - Main Branch' => 'NLCBTZTXTAN',
                 'Zanzibar - Main Branch' => 'NLCBTZTXZNZ',
                 'Iringa - Iringa Branch' => 'NLCBTZTXIRG',
