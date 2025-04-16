@@ -174,6 +174,7 @@ class BankList
                 'Singida - Main Branch' => 'NLCBTZTXSGD',
                 'Lindi - Lindi Branch' => 'NLCBTZTXLND',
                 'Mtwara - Masasi Branch' => 'NLCBTZTXMTW',
+                'Ruvuma - Mbinga Branch' => 'NULL', 
 
                 'Pwani - Kibaha Branch' => 'NULL',
 
